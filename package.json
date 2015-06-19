@@ -1,0 +1,25 @@
+{
+  "author": "Maximilian Kerp",
+  "name": "ccm-reactquiz",
+  "version": "0.0.1",
+  "description": "A web component utilizing ccm and react to create, share, and do quizes",
+  "repository": "https://github.com/creativeusername/ccm-reactquiz",
+  "main": "build/ccm-reactquiz.js",
+  "dependencies": {
+    "object-assign": "^2.0.0",
+    "react": "^0.13.2"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.8",
+    "reactify": "^1.1.0",
+    "watchify": "^3.1.2"
+  },
+  "scripts": {
+    "start": "watchify -o build/ccm-reactquiz.js -v -d src/js/ccm-reactquiz.js"
+  },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  }
+}
