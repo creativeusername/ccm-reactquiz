@@ -7,7 +7,7 @@ view layer. ccm-reactquiz is part of a college project and a work in progress.
 To see ccm-reactquiz in action just clone the repository and open up ./build/ccm-reactquiz.html
 in Firefox (Chrome doesn't work yet, haven't tried others).
 
-`git clone https://github.com/creativeusername/quizler.git`
+`git clone https://github.com/creativeusername/ccm-reactquiz.git`
 
 ## Developement
 
@@ -20,7 +20,7 @@ Once ccm-reactquiz reaches a stable version you will be able to dynamically load
 it with:
 ```
 ccm.render(
-  'https://raw.githubusercontent.com/creativeusername/ccm-reactquiz/master/build/bundle.js',
+  'https://raw.githubusercontent.com/creativeusername/ccm-reactquiz/master/build/reactquiz.js',
   {...}
 );
 ```
