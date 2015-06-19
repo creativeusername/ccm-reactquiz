@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+  <title>Test: Quiz</title>
+  <meta charset="utf-8">
+  <script src="http://www.fh-lsoopjava.de/ccm/ccm.js"></script>
+</head>
+<body>
+  <h1>Mit React und JSX</h1>
+  <h2>Quiz</h2>
+  <div id="quiz"></div>
+
+  <script>
+
+   ccm.render('./reactquiz.js', {
+     data: [ ccm.store, './quiz.json' ]
+   });
+
+  </script>
+</body>
+
+<!-- <h2>Quiz-Factory</h2> -->
+<!-- <div id="quizedit"></div> -->
